@@ -1,0 +1,16 @@
+body{
+    font-family: 'Kalam', sans-serif;
+}
+
+.perso_bgBlue{
+    background-color: rgb(40, 54, 69);
+}
+
+nav a {
+    /* color: white !important; */
+    font-size: 25px;
+}
+
+nav a:hover{
+    color: #FF8000 !important;
+}
