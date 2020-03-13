@@ -9,9 +9,9 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <!-- w-75 : width = 75%, h-75 : height = 75% -->
-        <!-- mx-auto : margin auto pour centrer -->
-        <!-- img-thumbnail : ajoute un effet arrondi aux images -->
+            <!-- w-75 : width = 75%, h-75 : height = 75% -->
+            <!-- mx-auto : margin auto pour centrer -->
+            <!-- img-thumbnail : ajoute un effet arrondi aux images -->
             <img src="../sources/images/cours1.png" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
         </div>
         <div class="carousel-item">
@@ -29,6 +29,11 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+</div>
+
+<div class="container text-center" id="presentation">
+    <!-- marge extérieur de 5 -->
+    <h2 class="m-5 perso_colorBlueLight">Alexandre : Etudiant à l'ENI Ecole Informatique</h2>
 </div>
 
 <?php

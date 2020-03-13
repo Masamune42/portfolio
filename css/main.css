@@ -18,3 +18,11 @@ nav a:hover{
 .perso_bgBlueDegrede{
     background: linear-gradient(rgb(40,54,69), white);
 }
+
+.perso_colorBlueLight{
+    color: #1490d7 !important;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
