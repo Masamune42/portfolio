@@ -80,6 +80,20 @@
     </div>
 </div>
 
+<div class="container text-center" id="portfolio">
+    <h2 class="m-5 perso_colorBlueLight">Mon Portfolio</h2>
+    <div class="card border-success mb-3" style="max-width: 18rem;">
+        <div class="card-header bg-transparent border-success">Cours JavaScript</div>
+        <div class="card-body text-success p-0">
+            <!-- w-100 : taille de 100% dans le div -->
+            <img src="../sources/images/cours1.png" class="d-block w-100">
+        </div>
+        <div class="card-footer bg-transparent border-success">
+            <button type="button" class="btn btn-primary">En savoir plus</button>
+        </div>
+    </div>
+</div>
+
 <?php
 $content = ob_get_clean();
 
