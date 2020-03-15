@@ -1,4 +1,6 @@
-<?php ob_start(); ?>
+<?php ob_start();
+require '../utile/formatage.php';
+?>
 
 <div id="carouselExampleIndicators" class="carousel slide perso_bgBlueDegrede" data-ride="carousel">
     <!-- indicateurs, rectangles en bas du carrousel -->
@@ -32,13 +34,11 @@
 </div>
 
 <div class="container text-center" id="presentation">
-    <!-- marge extérieur de 5 -->
-    <h2 class="m-5 perso_colorBlueLight">Alexandre : Etudiant à l'ENI Ecole Informatique</h2>
+    <?= formatageTitre("Alexandre : Etudiant à l'ENI Ecole Informatique"); ?>
 </div>
 
 <div class="container text-center" id="competences">
-    <!-- marge extérieur de 5 -->
-    <h2 class="m-5 perso_colorBlueLight">Mes compétences</h2>
+    <?= formatageTitre("Mes compétences"); ?>
     <div class="row">
         <div class="col-12 col-md-6 col-xl-4 my-4">
             HTML / CSS
@@ -81,7 +81,7 @@
 </div>
 
 <div class="container text-center" id="portfolio">
-    <h2 class="m-5 perso_colorBlueLight">Mon Portfolio</h2>
+    <?= formatageTitre("Mon Portfolio"); ?>
     <div class="card-group">
         <div class="card border-success mb-3">
             <div class="card-header bg-transparent border-success">Cours JavaScript</div>
@@ -178,8 +178,7 @@
 </div>
 
 <div class="container text-center" id="temoignages">
-    <!-- marge extérieur de 5 -->
-    <h2 class="m-5 perso_colorBlueLight">Mes témoignages</h2>
+    <?= formatageTitre("Mes témoignages"); ?>
     <div class="row">
         <div class="col-12 col-lg-4">
             <img src="../sources/images/aigle.jpg" class="rounded-circle" style="width:140px;height:140px">
