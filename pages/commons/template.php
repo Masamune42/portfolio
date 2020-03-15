@@ -17,6 +17,7 @@
 <body>
     <?php require 'menu.php' ?>
     <?= $content ?>
+    <div class="perso_bgBlue text-white text-center p-3">©Alexandre CAIGNARD</div>
 </body>
 
 </html>
