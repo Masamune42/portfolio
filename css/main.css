@@ -32,7 +32,9 @@ html {
 }
 
 /* Animation du menu */
+
 /* navbar-brand (à gauche) */
+
 .navbar-brand {
     animation-name: brand;
     animation-duration: 2s;
@@ -49,6 +51,7 @@ html {
 }
 
 /* navbar-nav (à droite) */
+
 .navbar-nav {
     animation-name: lien;
     animation-duration: 2s;
@@ -65,6 +68,7 @@ html {
 }
 
 /* Animation du bouton */
+
 .monBouton {
     animation-name: saut;
     animation-duration: 0.5s;
@@ -84,5 +88,52 @@ html {
         transition: all 200ms ease-in;
         /* Taille x1.2 fois de l'élément */
         transform: scale(1.2);
+    }
+}
+
+/* Animation du témoignage 1 */
+.animationTemoignage1 {
+    animation-name: temoignage1;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes temoignage1 {
+    0% {
+        left: -1000px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+/* Animation du témoignage 2 */
+.animationTemoignage2 {
+    animation-name: temoignage2;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes temoignage2 {
+    0% {
+        bottom: -100px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+/* Animation du témoignage 3 */
+.animationTemoignage3 {
+    animation-name: temoignage3;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes temoignage3 {
+    0% {
+        left: 1000px;
+    }
+    100% {
+        left: 0px;
     }
 }
