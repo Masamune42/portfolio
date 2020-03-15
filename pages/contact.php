@@ -23,7 +23,7 @@ if (isset($_POST['mail']) && isset($_POST['objet']) && isset($_POST['message']))
             <tr>
                 <td><img src="../sources/images/contact/tel.png" style="width: 100px"></td>
                 <td><img src="../sources/images/contact/yt.png" style="width: 100px"></td>
-                <td><img src="../sources/images/contact/FB.png" style="width: 100px"></td>
+                <td><img src="../sources/images/contact/fb.png" style="width: 100px"></td>
             </tr>
         </thead>
         <tbody>
