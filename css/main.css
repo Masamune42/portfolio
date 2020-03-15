@@ -1,9 +1,13 @@
-body{
-    font-family: 'Kalam', sans-serif;
+body {
+    font-family: 'Fredoka One', sans-serif;
 }
 
-.perso_bgBlue{
+.perso_bgBlue {
     background-color: rgb(40, 54, 69);
+}
+
+.perso_bgOrange {
+    background-color: #FF8000;
 }
 
 nav a {
@@ -11,18 +15,74 @@ nav a {
     font-size: 25px;
 }
 
-nav a:hover{
+nav a:hover {
     color: #FF8000 !important;
 }
 
-.perso_bgBlueDegrede{
-    background: linear-gradient(rgb(40,54,69), white);
+.perso_bgBlueDegrede {
+    background: linear-gradient(rgb(40, 54, 69), white);
 }
 
-.perso_colorBlueLight{
+.perso_colorBlueLight {
     color: #1490d7 !important;
 }
 
 html {
     scroll-behavior: smooth !important;
+}
+
+/* Animation du menu */
+/* navbar-brand (à gauche) */
+.navbar-brand {
+    animation-name: brand;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes brand {
+    0% {
+        left: -1000px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+/* navbar-nav (à droite) */
+.navbar-nav {
+    animation-name: lien;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes lien {
+    0% {
+        left: 1000px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+/* Animation du bouton */
+.monBouton {
+    animation-name: saut;
+    animation-duration: 0.5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    /* Une fois l'animation finie, fait la même chose dans le sens inverse */
+    animation-direction: alternate;
+}
+
+@keyframes saut {
+    0% {
+        transition: all 200ms ease-in;
+        /* Taille x1 fois de l'élément */
+        transform: scale(1);
+    }
+    100% {
+        transition: all 200ms ease-in;
+        /* Taille x1.2 fois de l'élément */
+        transform: scale(1.2);
+    }
 }

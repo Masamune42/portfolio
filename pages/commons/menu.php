@@ -11,22 +11,22 @@
             </li>
             <li class="nav-item mx-2">
                 <a class="nav-link text-white" href="index.php#presentation">Présentation</a>
-            </li>   
+            </li>
             <li class="nav-item mx-2">
-                <a class="nav-link text-white" href="index.php#">CV</a>
-            </li>   
+                <a class="nav-link text-white" href="../sources/pdf/CV.pdf" download="CV-Mathieu">CV</a>
+            </li>
             <li class="nav-item mx-2">
                 <a class="nav-link text-white" href="index.php#competences">Compétences</a>
-            </li>   
+            </li>
             <li class="nav-item mx-2">
                 <a class="nav-link text-white" href="index.php#portfolio">Portfolio</a>
             </li>
             <li class="nav-item mx-2">
                 <a class="nav-link text-white" href="index.php#temoignages">Témoignage</a>
-            </li> 
+            </li>
             <li class="nav-item mx-2">
                 <a class="nav-link text-white" href="contact.php">Contact</a>
-            </li>     
+            </li>
         </ul>
     </div>
 </nav>

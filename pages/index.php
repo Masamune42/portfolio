@@ -29,8 +29,13 @@ require '../utile/formatage.php';
     </a>
     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="sr-only text">Next</span>
     </a>
+</div>
+
+<!-- mt-3 : margin top 3 -->
+<div class="text-center mt-3">
+    <a class="btn text-white perso_bgOrange rounded-pill monBouton" href="../sources/pdf/CV.pdf" download="CV-Mathieu">Télécharger mon CV</a>
 </div>
 
 <div class="container text-center" id="presentation">
